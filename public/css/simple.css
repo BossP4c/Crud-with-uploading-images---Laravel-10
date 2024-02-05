@@ -1,0 +1,78 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/image_folder/jewelry.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    height: 100vh;
+}
+
+
+.home h1{
+    font-family: 'Satisfy', cursive;
+    color: #000;
+    margin: 50px;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px #ddd;
+}
+.home p{
+    font-size: 35px;
+    padding-left: 50px;
+}
+.home p span{
+    padding-left:150px;
+}
+
+nav{
+    background-color: #92C7CF;
+    border: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+
+nav a{
+    display: inline-block;
+    color: #343434;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+
+
+footer {
+    background-color: #92C7CF;
+    color: #343434;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
